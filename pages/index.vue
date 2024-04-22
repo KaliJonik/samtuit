@@ -1,13 +1,14 @@
 <template>
-  <div>
-    
-  </div>
+
+  <HomeSection />
+  <HomeCard />
+  <HomeFeature />
+
+
 </template>
 
 <script lang="ts" setup>
 
 </script>
 
-<style>
-
-</style>
+<style></style>
