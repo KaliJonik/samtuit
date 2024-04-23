@@ -5,5 +5,11 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss', 'nuxt-swiper'
   ],
+  router: {
+    options: {
+      scrollBehaviorType: 'smooth'
+    }
+  }
+
 
 })

@@ -1,9 +1,10 @@
 <template>
 <div class="max-w-7xl mx-auto font-[sans-serif] text-[#333] my-[10rem]">
-      <div class="text-center max-w-2xl mx-auto">
-        <h2 class="sm:text-3xl text-2xl font-extrabold">Discover Our Exclusive Features</h2>
-        <p class="text-sm text-gray-500 mt-6">Unlock a world of possibilities with our exclusive features. Explore how our unique offerings can transform your journey and empower you to achieve more.</p>
-      </div>
+  <div class="text-center max-w-2xl mx-auto">
+      <h2 class="sm:text-3xl text-2xl font-bold">Полезные Функции</h2>
+      <p class="text-sm text-gray-500 mt-6">Unlock a world of possibilities with our exclusive features. Explore how our
+        unique offerings can transform your journey and empower you to achieve more.</p>
+    </div>
       <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-x-12 gap-y-20 mt-16">
         <div class="text-center">
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-12 mb-4 inline-block bg-blue-100 p-3 rounded-xl" viewBox="0 0 32 32">

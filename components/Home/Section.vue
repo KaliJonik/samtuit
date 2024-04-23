@@ -3,133 +3,131 @@
 </script>
 
 <template>
-  <div>
-    <h2>Swiper Creative Effect</h2>
     <ClientOnly>
-      <section class="home-showcase">
-        <Swiper :modules="[SwiperAutoplay, SwiperParallax, SwiperPagination, SwiperNavigation]" :slides-per-view="1" :parallax="true"  :navigation="{
-           nextEl: '.showcaseSlider-next',
-           prevEl: '.showcaseSlider-prev',
-        }"
-          :speed="1000" :pagination="{
+      <section class="home-showcase p-0 m-0">
+        <Swiper :modules="[SwiperAutoplay, SwiperParallax, SwiperPagination, SwiperNavigation]" :slides-per-view="1"
+          :parallax="true" :navigation="{
+          nextEl: '.showcaseSlider-next',
+          prevEl: '.showcaseSlider-prev',
+        }" :speed="1000" :pagination="{
           el: '.showcaseSlider-pagination',
           clickable: true,
         }" :autoplay="{
           delay: 3000,
           disableOnInteraction: false,
         }" class="home-showcaseSlider">
-   
-            <SwiperSlide>
-              <div class="swiper-image" data-swiper-parallax-x="3%"
-                style="background-image:url(https://source.unsplash.com/random?sig=42)">
-                <div class="text-container">
-                  <h1 class="bigTitle">Lorem ipsum dolor<span class="orangeIcon"></span> <br> Sit amet <span
-                      class="orangeIcon"></span> <br> Consectetur <span class="orangeIcon"></span></h1>
-                  <div class="container-arrow-button">
-                    <a class="cta arrow-button" href="#">
-                      an example of link
-                      <svg viewBox="0 0 76.922 65">
-                        <circle cx="32.5" cy="32.5" r="32" transform="translate(11.922)" fill="none" stroke="#8c97d0"
-                          stroke-width="1"></circle>
-                        <path id="Union_1" data-name="Union 1"
-                          d="M-6071.353,33.349l9.643-9.642H-6111v-2h48.941l-9.293-9.294,1.414-1.414,11.881,11.883-11.881,11.881Z"
-                          transform="translate(6111 10)" fill="#10112b"></path>
-                      </svg>
-                    </a>
-                  </div>
+
+          <SwiperSlide>
+            <div class="swiper-image" data-swiper-parallax-x="3%"
+              style="background-image:url('/IMG_0530.jpg')">
+              <div class="text-container">
+                <h1 class="bigTitle">Muhammad al-Xorazmiy nomidagi<span class="orangeIcon"></span> <br> Toshkent axborot texnologiyalari universiteti  <span
+                    class="orangeIcon"></span> <br> Samarqand filiali <span class="orangeIcon"></span></h1>
+                <div class="container-arrow-button">
+                  <a class="cta arrow-button" href="#homeCard">
+                    an example of link
+                    <svg viewBox="0 0 76.922 65">
+                      <circle cx="32.5" cy="32.5" r="32" transform="translate(11.922)" fill="none" stroke="#8c97d0"
+                        stroke-width="1"></circle>
+                      <path id="Union_1" data-name="Union 1"
+                        d="M-6071.353,33.349l9.643-9.642H-6111v-2h48.941l-9.293-9.294,1.414-1.414,11.881,11.883-11.881,11.881Z"
+                        transform="translate(6111 10)" fill="#10112b"></path>
+                    </svg>
+                  </a>
                 </div>
-                <div class="filter"></div>
               </div>
-            </SwiperSlide>
-            <SwiperSlide >
-              <div class="swiper-image" data-swiper-parallax-x="3%"
-                style="background-image:url(https://source.unsplash.com/random?sig=43)">
-                <div class="text-container">
-                  <h1 class="bigTitle">Lorem ipsum dolor<span class="orangeIcon"></span> <br> Sit amet <span
-                      class="orangeIcon"></span> <br> Consectetur <span class="orangeIcon"></span></h1>
-                  <div class="container-arrow-button">
-                    <a class="cta arrow-button" href="#">
-                      an example of link
-                      <svg viewBox="0 0 76.922 65">
-                        <circle cx="32.5" cy="32.5" r="32" transform="translate(11.922)" fill="none" stroke="#8c97d0"
-                          stroke-width="1"></circle>
-                        <path id="Union_1" data-name="Union 1"
-                          d="M-6071.353,33.349l9.643-9.642H-6111v-2h48.941l-9.293-9.294,1.414-1.414,11.881,11.883-11.881,11.881Z"
-                          transform="translate(6111 10)" fill="#10112b"></path>
-                      </svg>
-                    </a>
-                  </div>
+              <div class="filter"></div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="swiper-image" data-swiper-parallax-x="3%"
+            style="background-image:url('/IMG_0532.jpg')">
+            <div class="text-container">
+                <h1 class="bigTitle">Muhammad al-Xorazmiy nomidagi<span class="orangeIcon"></span> <br> Toshkent axborot texnologiyalari universiteti  <span
+                    class="orangeIcon"></span> <br> Samarqand filiali <span class="orangeIcon"></span></h1>
+                <div class="container-arrow-button">
+                  <a class="cta arrow-button" href="#">
+                    an example of link
+                    <svg viewBox="0 0 76.922 65">
+                      <circle cx="32.5" cy="32.5" r="32" transform="translate(11.922)" fill="none" stroke="#8c97d0"
+                        stroke-width="1"></circle>
+                      <path id="Union_1" data-name="Union 1"
+                        d="M-6071.353,33.349l9.643-9.642H-6111v-2h48.941l-9.293-9.294,1.414-1.414,11.881,11.883-11.881,11.881Z"
+                        transform="translate(6111 10)" fill="#10112b"></path>
+                    </svg>
+                  </a>
                 </div>
-                <div class="filter"></div>
               </div>
-            </SwiperSlide>
-            <SwiperSlide >
-              <div class="swiper-image" data-swiper-parallax-x="3%"
-                style="background-image:url(https://source.unsplash.com/random?sig=44)">
-                <div class="text-container">
-                  <h1 class="bigTitle">Lorem ipsum dolor<span class="orangeIcon"></span> <br> Sit amet <span
-                      class="orangeIcon"></span> <br> Consectetur <span class="orangeIcon"></span></h1>
-                  <div class="container-arrow-button">
-                    <a class="cta arrow-button" href="#">
-                      an example of link
-                      <svg viewBox="0 0 76.922 65">
-                        <circle cx="32.5" cy="32.5" r="32" transform="translate(11.922)" fill="none" stroke="#8c97d0"
-                          stroke-width="1"></circle>
-                        <path id="Union_1" data-name="Union 1"
-                          d="M-6071.353,33.349l9.643-9.642H-6111v-2h48.941l-9.293-9.294,1.414-1.414,11.881,11.883-11.881,11.881Z"
-                          transform="translate(6111 10)" fill="#10112b"></path>
-                      </svg>
-                    </a>
-                  </div>
+              <div class="filter"></div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="swiper-image" data-swiper-parallax-x="3%"
+            style="background-image:url('/IMG_0534.jpg')">
+            <div class="text-container">
+                <h1 class="bigTitle">Muhammad al-Xorazmiy nomidagi<span class="orangeIcon"></span> <br> Toshkent axborot texnologiyalari universiteti  <span
+                    class="orangeIcon"></span> <br> Samarqand filiali <span class="orangeIcon"></span></h1>
+                <div class="container-arrow-button">
+                  <a class="cta arrow-button" href="#">
+                    an example of link
+                    <svg viewBox="0 0 76.922 65">
+                      <circle cx="32.5" cy="32.5" r="32" transform="translate(11.922)" fill="none" stroke="#8c97d0"
+                        stroke-width="1"></circle>
+                      <path id="Union_1" data-name="Union 1"
+                        d="M-6071.353,33.349l9.643-9.642H-6111v-2h48.941l-9.293-9.294,1.414-1.414,11.881,11.883-11.881,11.881Z"
+                        transform="translate(6111 10)" fill="#10112b"></path>
+                    </svg>
+                  </a>
                 </div>
-                <div class="filter"></div>
               </div>
-            </SwiperSlide>
-            <SwiperSlide >
-              <div class="swiper-image" data-swiper-parallax-x="3%"
-                style="background-image:url(https://source.unsplash.com/random?sig=45)">
-                <div class="text-container">
-                  <h1 class="bigTitle">Lorem ipsum dolor<span class="orangeIcon"></span> <br> Sit amet <span
-                      class="orangeIcon"></span> <br> Consectetur <span class="orangeIcon"></span></h1>
-                  <div class="container-arrow-button">
-                    <a class="cta arrow-button" href="#">
-                      an example of link
-                      <svg viewBox="0 0 76.922 65">
-                        <circle cx="32.5" cy="32.5" r="32" transform="translate(11.922)" fill="none" stroke="#8c97d0"
-                          stroke-width="1"></circle>
-                        <path id="Union_1" data-name="Union 1"
-                          d="M-6071.353,33.349l9.643-9.642H-6111v-2h48.941l-9.293-9.294,1.414-1.414,11.881,11.883-11.881,11.881Z"
-                          transform="translate(6111 10)" fill="#10112b"></path>
-                      </svg>
-                    </a>
-                  </div>
+              <div class="filter"></div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="swiper-image" data-swiper-parallax-x="3%"
+            style="background-image:url('/inc2.jpg')">
+            <div class="text-container">
+                <h1 class="bigTitle">Muhammad al-Xorazmiy nomidagi<span class="orangeIcon"></span> <br> Toshkent axborot texnologiyalari universiteti  <span
+                    class="orangeIcon"></span> <br> Samarqand filiali <span class="orangeIcon"></span></h1>
+                <div class="container-arrow-button">
+                  <a class="cta arrow-button" href="#">
+                    an example of link
+                    <svg viewBox="0 0 76.922 65">
+                      <circle cx="32.5" cy="32.5" r="32" transform="translate(11.922)" fill="none" stroke="#8c97d0"
+                        stroke-width="1"></circle>
+                      <path id="Union_1" data-name="Union 1"
+                        d="M-6071.353,33.349l9.643-9.642H-6111v-2h48.941l-9.293-9.294,1.414-1.414,11.881,11.883-11.881,11.881Z"
+                        transform="translate(6111 10)" fill="#10112b"></path>
+                    </svg>
+                  </a>
                 </div>
-                <div class="filter"></div>
               </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div class="swiper-image" data-swiper-parallax-x="3%"
-                style="background-image:url(https://source.unsplash.com/random?sig=46)">
-                <div class="text-container">
-                  <h1 class="bigTitle">Lorem ipsum dolor<span class="orangeIcon"></span> <br> Sit amet <span
-                      class="orangeIcon"></span> <br> Consectetur <span class="orangeIcon"></span></h1>
-                  <div class="container-arrow-button">
-                    <a class="cta arrow-button" href="#">
-                      an example of link
-                      <svg viewBox="0 0 76.922 65">
-                        <circle cx="32.5" cy="32.5" r="32" transform="translate(11.922)" fill="none" stroke="#8c97d0"
-                          stroke-width="1"></circle>
-                        <path id="Union_1" data-name="Union 1"
-                          d="M-6071.353,33.349l9.643-9.642H-6111v-2h48.941l-9.293-9.294,1.414-1.414,11.881,11.883-11.881,11.881Z"
-                          transform="translate(6111 10)" fill="#10112b"></path>
-                      </svg>
-                    </a>
-                  </div>
+              <div class="filter"></div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="swiper-image" data-swiper-parallax-x="3%"
+              style="background-image:url('/books.jpg')">
+              <div class="text-container">
+                <h1 class="bigTitle">Muhammad al-Xorazmiy nomidagi<span class="orangeIcon"></span> <br> Toshkent axborot texnologiyalari universiteti  <span
+                    class="orangeIcon"></span> <br> Samarqand filiali <span class="orangeIcon"></span></h1>
+                <div class="container-arrow-button">
+                  <a class="cta arrow-button" href="#">
+                    an example of link
+                    <svg viewBox="0 0 76.922 65">
+                      <circle cx="32.5" cy="32.5" r="32" transform="translate(11.922)" fill="none" stroke="#8c97d0"
+                        stroke-width="1"></circle>
+                      <path id="Union_1" data-name="Union 1"
+                        d="M-6071.353,33.349l9.643-9.642H-6111v-2h48.941l-9.293-9.294,1.414-1.414,11.881,11.883-11.881,11.881Z"
+                        transform="translate(6111 10)" fill="#10112b"></path>
+                    </svg>
+                  </a>
                 </div>
-                <div class="filter"></div>
               </div>
-            </SwiperSlide>
-     
+              <div class="filter"></div>
+            </div>
+          </SwiperSlide>
+
           <!-- pagination -->
           <div class="swiper-pagination showcaseSlider-pagination"></div>
 
@@ -142,13 +140,12 @@
         </Swiper>
       </section>
     </ClientOnly>
-  </div>
 </template>
 
 <style lang="scss">
 $color__purple-blue: #8c97d0;
 $color__night-blue: #10112b;
-$color__orange: #f7970e;
+$color__orange: #0e39f7;
 $color__dark-gray: #8f9397;
 
 @font-face {
@@ -194,7 +191,7 @@ $grotesk-extrabold: 'CabinetGrotesk-extrabold', sans-serif;
 
 .bigTitle {
   font-family: $grotesk-extrabold;
-  line-height: 0.9;
+  line-height: 1.2;
   font-size: 13vw;
 
   @include screen-min(425px) {
@@ -202,7 +199,7 @@ $grotesk-extrabold: 'CabinetGrotesk-extrabold', sans-serif;
   }
 
   @include screen-min(1024px) {
-    font-size: 6vw;
+    font-size: 4vw;
   }
 
   .orangeIcon {
@@ -278,8 +275,8 @@ $grotesk-extrabold: 'CabinetGrotesk-extrabold', sans-serif;
 .home-showcase {
   padding: 0 var(--columnExt) 0;
   position: relative;
-  margin: 2rem 0 20vw;
-  height: 85dvh;
+
+  height: 100dvh;
 
   .home-showcaseSlider {
     display: flex;
@@ -297,7 +294,7 @@ $grotesk-extrabold: 'CabinetGrotesk-extrabold', sans-serif;
         .swiper-image {
           padding: 5vw;
           width: 100%;
-          height:100%;
+          height: 100%;
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
@@ -470,28 +467,30 @@ $grotesk-extrabold: 'CabinetGrotesk-extrabold', sans-serif;
   }
 
   @include screen-min(1024px) {
-    margin: 2rem 0 7.9vw;
+
 
     .home-showcaseSlider {
       display: block;
 
-   
-        .swiper-slide {
-          height: clamp(45rem, 75vh, 5000px);
 
-          .swiper-image {
-            align-items: center;
+      .swiper-slide {
+        height: clamp(45rem, 75vh, 5000px);
+      
 
-            .text-container {
-              max-width: 75%;
-              margin: 0;
+        .swiper-image {
+          align-items: center;
+          
 
-              .bigTitle {
-                margin: 0 0 1.25rem;
-              }
+          .text-container {
+            max-width: 75%;
+            margin: 0;
+
+            .bigTitle {
+              margin: 0 0 1.25rem;
             }
           }
         }
+      }
 
 
       .swiper-pagination {
